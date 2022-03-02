@@ -1,0 +1,670 @@
+*,
+*:before,
+*:after{
+  box-sizing: border-box;
+}
+body {
+  font-family: "Lato", sans-serif;
+}
+.heading {
+  font-size: 72px;
+  line-height: 86px;
+  color: #000000;
+}
+.subtitlle {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 43px;
+  color: #000000;
+}
+.subtitlle-subtitlle {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 9px;
+  color: #000000;
+}
+.text {
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+}
+
+/*-CloudBudget-*/
+.fon-van {
+  background-image: url(../images/rectangle.png), url(../images/rectangle0.jpg);
+  padding-bottom: 180px;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.main-header {
+  padding-top: 45px;
+  padding-left: 165px;
+}
+.main-nav-list {
+  padding: 0;
+  margin-top: -33px;
+  list-style-type: none;
+  font-size: 0;
+  text-align: center;
+}
+.main-nav-list-item {
+  display: inline-block;
+}
+.main-nav-link {
+  display: inline-block;
+  padding: 8px 12px;
+  font-size: 18px;
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  line-height: 17px;
+  height: 20px;
+}
+/*-button 1*/
+.button-one {
+  background-color: transparent;
+  font-size: 14px;
+  padding: 11px 29px;
+  margin: -30px 30px 39px 1200px;
+  border-radius: 6px;
+  box-sizing: border-box;
+  width: 100px;
+  color: #fff;
+  border: 1px solid #ffffffc9;
+  position: absolute;}
+.button-one:hover {
+  box-shadow: 0 0 30px #fff;
+  color: #000000;
+}
+.button-one:focus {
+  outline: #ee3d1b;
+}
+.button-one:active {
+  background: #d52047;
+}
+.main-title {
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-weight: bold;
+  font-size: 72px;
+  line-height: 86px;
+  margin: 191px 431px 39px 431px;
+}
+.title-text {
+  line-height: 150%;
+  font-weight: 600;
+  font-size: 24px;
+  color: #ffffff;
+  text-align: center;
+  margin: 39px 450px 39px 450px;
+}
+/*-button 2*/
+.button-two {
+  background-color: #fff;
+  font-size: 14px;
+  padding: 21px 52px;
+  border-radius: 6px;
+  width: 160px;
+  color: #ed4c5c;
+  border: #fff;
+  display: block;
+  margin: 0 auto;
+}
+.button-two:hover {
+  color: #fff;
+  background-color: rgb(165, 14, 14);
+}
+.button-two:focus {
+  background: #ee3d1b;
+}
+.button-two:active {
+  background: #d52047;
+}
+.features {
+  vertical-align: baseline;
+}
+
+/* fon2 button 3*/
+.fon-two {
+  background-color: #ffffff;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.wrapper{
+  padding-left: 165px;
+}
+.title-two { 
+  width: 445px;
+  height: 87px;
+  margin: 90px 200px 40px 0;
+  color: #000000;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 43px;
+}
+.description {
+  width: 445px;
+  height: 115px;
+  font-size: 16px;
+  line-height: 140%;
+  text-align: justify;
+  color: #000000;
+}.video{
+  position: relative;
+  min-width: 100%;
+  margin: -250px 65px 40px 900px;
+  height: 311px;
+  border-radius: 15px;
+}
+.button-three { 
+  position: absolute;
+  top: calc(50%-30px);
+  left: calc(50%-30px);
+   width: 66px;
+  height: 66px;
+  margin: 110px 65px 40px -300px;;
+  background-color: #ed4c5c;
+  border-radius: 50%;
+  border: none;
+ 
+ 
+}
+
+/*fon 3 button 4+*/
+.fon-three {
+  background-color: #fafafa;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.title-three{
+  height: 55px;
+  margin: 63px 165px 63px 165px;
+  padding: 20px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 43px;
+  text-align: center;
+  color: #000000
+}
+.box{
+  display: inline-block;
+  width: 350px;
+  margin: 0 20px 0 80px;
+  
+}
+.quadra{
+  margin-top: -100px;
+  margin-left: 175px;
+  padding: 8px 16px ;
+  min-width: 293px;
+  min-height: 198px;
+  box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+  background: #ffffff;
+
+}
+.substrate {
+   width: 350px;
+   height: 250px;
+ }
+
+.table-of-contents{
+  font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+font-weight: bold;
+color: #101010;
+}
+
+.button-four {
+  background-color: #fff;
+  font-size: 12px;
+  border-radius: 2px;
+  padding: 11px 29px;
+  width: 253px;
+  color: #ed4c5c;
+  border: #fff;
+}
+.button-four:hover {
+  color: #fff;
+  background-color: rgb(119, 111, 111);
+}
+.button-fou:focus {
+  background: #ee3d1b;
+}
+.button-fou3.button-one {
+  background: #d52047;
+}
+
+/*-Stay focused on saving money*/
+/*-fon-two*/
+
+
+/*-contact*/
+
+
+
+.fon-six {
+  background-color: #ffffff;
+  height: 537px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.fon-seven {
+  background-color: #fafafa;
+  height: 435px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+/*-Technology*/
+.fon-four {
+  background-color: #ffffff;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.title-four {
+  height: 55px;
+  margin: 63px 165px 63px 165px;
+  padding: 20px;
+  font-style: normal;
+font-size: 36px;
+line-height: 43px;
+text-align: center;
+color: #000000;
+}
+.two-list{
+  margin-left: -15px;
+  margin-right: -15px; 
+  text-align: center;
+}
+.substrate-zero-van {
+ padding: 10px;
+margin: 2px 169px;
+font-size: 100px;
+line-height: 120px;
+}
+
+.picture-van {
+ display: inline-block;
+ 
+} 
+.storage {
+  list-style-type: none;
+  padding-left: 0px;
+  padding-right: 0px;
+  float: left;
+
+}
+.text{
+  display: inline-block;
+ 
+}
+.imeg{
+position: absolute;
+  margin: 60px 72px 0px -152px ;
+  max-height: 80px;
+}
+.picture {
+  position: absolute;
+  margin: 130px 72px 0px -152px;
+ font-size: 18px;
+ font-weight: 700;
+  color: #101010;
+ font-weight: bold;
+} 
+
+
+.numbers{
+margin: 2px 20px  0 -172px;
+  font-weight: bold;
+  font-size: 100px;
+  line-height: 120px;
+  text-align: center;
+  color: rgba(16, 16, 16, 0.08);
+}
+
+
+/*-fon5*/
+
+.fon-drink {
+  background-color: #ed4c5c;
+  padding-bottom: 160px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.subtitle {
+  width: 445px;
+  height: 87px;
+  
+  margin-left: 165px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 43px;
+  color: #ffffff;
+}
+
+.text-five {
+  width: 445px;
+  height: 87px;
+  margin: 110px 80px 32px 165px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 140%;
+  color: #ffffff;
+}
+
+
+.location{
+  margin: 0 0 0 165px;
+  padding: 0;
+  list-style-type: none;
+}
+.location-one{
+  display: inline-block;
+}
+.general-one{
+  display: block;
+  color: transparent;
+  background: #fff;
+  -webkit-background-clip: text;
+  background-clip: text;
+  font-size: 20px;
+  text-decoration: none;
+}
+.link{
+  text-decoration: none;
+}
+.map {
+  position: absolute;
+  border-radius: 8px;
+  width: 630px;
+  height: 438.7px;
+  left: 1000px;
+  top: 2270px;
+}
+
+/*-button 5*/
+.subtitle-two {
+  position: absolute;
+  width: 445px;
+  height: 45.11px;
+  margin: 125px 80px 32px 171px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 43px;
+  color: #000000;
+}
+.text-six {
+  position: absolute;
+  width: 445px;
+  height: 165.4px;
+  margin: 205px 80px 32px 171px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 140%;
+  text-align: justify;
+  color: #000000;
+}
+.your-contacts-one {
+  background-color: transparent;
+  border: 1px solid #333333;
+  font-size: 16px;
+  border-radius: 6px;
+  padding: 23px 147px 22px 31px;
+  box-sizing: border-box;
+  color: rgba(19, 39, 67, 0.5);
+  margin: 125px 30px 26px 741px;
+}
+.your-contacts-two {
+  background-color: transparent;
+  border: 1px solid #333333;
+  font-size: 16px;
+  border-radius: 6px;
+  padding: 23px 147px 22px 31px;
+  box-sizing: border-box;
+  color: rgba(19, 39, 67, 0.5);
+  margin: 125px 159px 26px 30px;
+}
+.your-contacts-three {
+  background-color: transparent;
+  border: 1px solid #333333;
+  padding: 23px 411px 22px 31px;
+  font-size: 16px;
+  box-sizing: border-box;
+  border-radius: 6px;
+  margin: 26px 159px 26px 741px;
+  width: 810px;
+}
+.your-contacts-four-one {
+  background-color: transparent;
+  border: 1px solid #333333;
+  padding: 23px 411px 22px 31px;
+  font-size: 16px;
+  box-sizing: border-box;
+  border-radius: 6px;
+  margin: 26px 159px 167px 741px;
+  color: rgba(19, 39, 67, 0.5);
+  width: 810px;
+}
+.your-contacts-four-one:focus {
+  outline: #706464;
+}
+.button-five {
+  position: absolute;
+  width: 160px;
+  height: 64.44px;
+  left: 1px;
+  top: 3150px;
+  background-color: #ed4c5c;
+  font-size: 14px;
+  padding: 22px 34px;
+  border-radius: 6px;
+  width: 160px;
+  border: 1.5px solid#ed4c5c;
+  color: #ffffff;
+  appearance: none;
+  box-sizing: border-box;
+  margin: 29px 539px 73px 741px;
+}
+.button-five:hover {
+  box-shadow: 0 0 30px #fff;
+  color: #000000;
+}
+.button-five:focus {
+  background: #ee3d1b;
+}
+.button-five:active {
+  background: #d52047;
+}
+.basement {
+  
+  width: 65px;
+  height: 22px;
+  margin: 98px 222px 33px 165px;
+
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #101010;
+}
+.text-seven {
+ 
+  width: 254px;
+  height: 63px;
+  margin: 33px 232px 124px 165px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+  color: #101010;
+}
+.basement-two {
+  
+  width: 67px;
+  height: 22px;
+  margin: -240px 222px 33px 565px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: #101010;
+}
+
+.text-eight {
+  
+  list-style-type: none;
+  width: 254px;
+  height: 132px;
+  margin: 0px 222px 33px 520px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 160%;
+  text-transform: capitalize;
+  color: #000000;
+}
+.basement-three {
+
+  width: 101px;
+  height: 22px;
+  margin: -220px 222px 33px 1065px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #101010;
+}
+.text-nine {
+  color: #101010;
+  text-decoration: none;
+  
+}
+.text-ten {
+  text-decoration: none;
+  padding: 8px 8px 0 0;
+  width: 142px;
+  height: 17px;
+  display: block;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #101010;
+
+}
+.social-network{
+  padding: 10px 0 0 0;
+}
+.text-eleven {
+  
+  width: 142px;
+  height: 17px;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #101010;
+}
+.text-twelve {
+  width: 142px;
+  height: 17px;
+  
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #101010;
+}
+.text-thirteen {
+  
+  width: 142px;
+  height: 17px;
+ 
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #101010;
+}
+.basement-four {
+  margin: -130px 222px 33px 1565px;
+  width: 96px;
+  height: 22px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: #101010;
+}
+.payment-system {
+  margin: 0px 1565px;
+  width: 216px;
+  height: 31px;
+  
+}
+.text-fourteen {
+
+  width: 181px;
+  height: 17px;
+  margin: 150px 165px ;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #101010;
+}
+.column{
+  list-style-type: none;
+  text-decoration: none;
+  display: inline-block;
+  width: 142px;
+  height: 17px;
+  margin: 0px 222px 33px 1000px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #101010;
+
+}
+.net{
+  color: transparent;
+  background: #000000;
+  -webkit-background-clip: text;
+  background-clip: text ;
+  font-size: 15px;
+}

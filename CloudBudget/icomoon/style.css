@@ -1,0 +1,81 @@
+@font-face {
+  font-family: 'icomoon';
+  src: url('fonts/icomoon.woff?9bbbd4') format('woff');  
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-twitter:before {
+  content: "\e900";
+}
+.icon-facebook:before {
+  content: "\e901";
+}
+.icon-linkedIn:before {
+  content: "\e902";
+}
+.icon-playstore:before {
+  content: "\e903";
+}
+.icon-simple-icons:before {
+  content: "\e904";
+}
+.icon-windows:before {
+  content: "\e905";
+}
+.icon-technology_one:before {
+  content: "\e906";
+  font-size: 70px;
+  margin: 0 0 0 -170px;
+  color: transparent;
+  background: #ed4c5c;
+  -webkit-background-clip: text;
+  background-clip: text;
+ 
+}
+.icon-technology_two:before {
+  content: "\e907";
+  font-size: 50px;
+  margin: 0 0 0 -160px;
+  color: transparent;
+  background: #ed4c5c;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+.icon-technology_three:before {
+  content: "\e908";
+  font-size: 50px;
+  margin: 0 0 0 -160px;
+  color: transparent;
+  background: #ed4c5c;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+.icon-technology_for:before {
+  content: "\e909";
+  font-size: 50px;
+  margin: 0 0 0 -150px;
+  color: transparent;
+  background: #ed4c5c;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+.icon-triangle:before {
+  content: "\e90a";
+}
